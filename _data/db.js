@@ -1,5 +1,5 @@
-{
-    "recipes": [
+export const data = {
+    recipes: [
       {
         "id": "1",
         "title": "Veggie Carbonara",
