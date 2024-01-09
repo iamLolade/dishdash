@@ -3,7 +3,7 @@ export const data = {
       {
         "id": "1",
         "title": "Veggie Carbonara",
-        "image": "veggie_carbonara.jpg",
+        "image": "veggie_carbonara.jpeg",
         "time": 20,
         "description": "A vegetarian twist on the classic Italian pasta dish with eggs, cheese, and vegetarian bacon.",
         "vegan": false
@@ -11,7 +11,7 @@ export const data = {
       {
         "id": "2",
         "title": "Veg Stir-Fry",
-        "image": "veg_stir_fry.jpg",
+        "image": "veg_stir_fry.jpeg",
         "time": 25,
         "description": "A quick and healthy vegetarian stir-fry with fresh vegetables and tofu.",
         "vegan": true
@@ -19,7 +19,7 @@ export const data = {
       {
         "id": "3",
         "title": "Veg Alfredo",
-        "image": "veg_alfredo.jpg",
+        "image": "veg_alfredo.jpeg",
         "time": 30,
         "description": "Creamy pasta with grilled vegetarian chicken and a rich Alfredo sauce.",
         "vegan": false
@@ -27,7 +27,7 @@ export const data = {
       {
         "id": "4",
         "title": "Mushroom Risotto",
-        "image": "mushroom_risotto.jpg",
+        "image": "mushroom_risotto.jpeg",
         "time": 40,
         "description": "A comforting vegetarian Italian rice dish with sautéed mushrooms and parmesan cheese.",
         "vegan": false
@@ -35,7 +35,7 @@ export const data = {
       {
         "id": "5",
         "title": "Veg Lentil Soup",
-        "image": "veg_lentil_soup.jpg",
+        "image": "veg_lentil_soup.jpeg",
         "time": 35,
         "description": "A hearty and nutritious vegetarian soup made with lentils and a blend of spices.",
         "vegan": true
@@ -43,7 +43,7 @@ export const data = {
       {
         "id": "6",
         "title": "Grilled Mushrooms",
-        "image": "grilled_mushrooms.jpg",
+        "image": "grilled_mushrooms.jpeg",
         "time": 15,
         "description": "Flavorful grilled Portobello mushrooms with a lemon and herb marinade.",
         "vegan": true
@@ -51,7 +51,7 @@ export const data = {
       {
         "id": "7",
         "title": "Roasted Veg Salad",
-        "image": "roasted_veg_salad.jpg",
+        "image": "roasted_veg_salad.jpeg",
         "time": 30,
         "description": "A colorful vegetarian salad featuring roasted vegetables and a balsamic vinaigrette.",
         "vegan": true
@@ -59,7 +59,7 @@ export const data = {
       {
         "id": "8",
         "title": "Veggie Tacos",
-        "image": "veggie_tacos.jpg",
+        "image": "veggie_tacos.jpeg",
         "time": 25,
         "description": "Tasty vegetarian tacos with seasoned plant-based meat and fresh toppings.",
         "vegan": true
@@ -67,7 +67,7 @@ export const data = {
       {
         "id": "9",
         "title": "Chocolate Cookies",
-        "image": "chocolate_cookies.jpg",
+        "image": "chocolate_cookies.jpeg",
         "time": 12,
         "description": "Homemade vegetarian chocolate chip cookies that are soft and gooey inside.",
         "vegan": false
