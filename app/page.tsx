@@ -14,16 +14,31 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import Nav from '@/components/nav';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
-export default function Home() {
-  const state = data.recipes
-  // console.log('State: ', state)
+interface Recipe {
+  id: string;
+  title: string;
+  image: string;
+  time: number;
+  description: string;
+  vegan: boolean;
+}
+
+
+export default async function Home() {
+  const [state, setState] = useState<Recipe[]>([])
+
+  useEffect(() => {
+    setTimeout(() => setState(data?.recipes), 1000)
+  }, [])
+
+  // console.log(state)
   return (
     <>
       <main>
         <div className="grid grid-cols-3 gap-8">
-          {state.map(recipe => (
+          {state?.map(recipe => (
             <Card key={recipe.id} className="flex flex-col justify-between">
               <CardHeader className="flex-row gap-4 items-center">
                 <Avatar>
